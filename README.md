@@ -19,7 +19,7 @@ cd agenda-contatos
 ```
 
 ## Configuração - Backend
-
+Segundo passo, instalar as dependências e subir o servidor:
 ``` bash
 # Instalar dependências do projeto
 composer install
@@ -29,6 +29,7 @@ php artisan serve
 ```
 
 ## Configuração - Frontend
+Terceiro passo, atualizar dependências, verificar se o projeto possui algum erro e rodar ambiente:
 ``` bash
 # Atualizar dependências
 npm install
