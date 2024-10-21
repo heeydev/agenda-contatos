@@ -2,7 +2,7 @@
 
 # Projeto Prático de Laravel + Livewire + Tailwind
 
-> Exemplo básico Laravel com Livewire
+> Exemplo básico do Framework Laravel com Livewire
 
 ## Baixar o projeto
 Primeiro passo, clonar o projeto:
