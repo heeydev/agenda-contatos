@@ -2,6 +2,10 @@
 
 # Projeto Prático de Laravel + Livewire + Tailwind
 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
 > Exemplo básico do Framework Laravel com Livewire
 
 ## Baixar o projeto
