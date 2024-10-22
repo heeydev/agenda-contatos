@@ -3,10 +3,8 @@
 # Projeto Prático de Laravel + Livewire + Tailwind
 
 <p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image.png" width="400" alt="Cadastrar contatos"></a></p>
-<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-2.png" width="400" alt="Cadastrar contatos"></a></p>
-<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-3.png" width="400" alt="Cadastrar contatos"></a></p>
-
-![alt text](image-3.png)
+<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-3.png" width="800" alt="Cadastrar contatos"></a></p>
+<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-2.png" width="200" alt="Cadastrar contatos"></a></p>
 
 > Exemplo básico do Framework Laravel com Livewire
 
