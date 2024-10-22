@@ -9,7 +9,6 @@
 </head>
 <body>
     {{ $slot }}
-
     <livewire:scripts />
     <wireui:scripts />
     <script src="//unpkg.com/alpinejs" defer></script>
