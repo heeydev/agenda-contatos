@@ -35,7 +35,7 @@ class SearchContact extends Component
     protected $queryString = ['search'];
 
     /**
-     * Realiza a validação e busca do CEP via API
+     * Atualiza as informações do formulário
     */
     public function updated(string $key, string $value): void
     {

@@ -5,13 +5,12 @@ declare(strict_types=1);
 namespace App\Http\Controllers\api;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Contact;
 
 class ContactController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Retorna todos os contatos cadastrados em formato JSON
      *
      * @return \Illuminate\Http\Response
      */

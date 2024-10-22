@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Http;
 
 class ViaCepService
 {
+    /**
+     * Realiza validação e retorna os dados do CEP via API, caso seja válido
+     */
     public static function handle(string $zipcode = ''): array
     {
         $zipcode = preg_replace('/[^A-Za-z0-9\-]/', '', $zipcode);

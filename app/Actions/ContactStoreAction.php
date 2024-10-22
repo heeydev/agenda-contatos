@@ -8,7 +8,10 @@ use App\Models\Contact;
 
 class ContactStoreAction
 {
-    public static function save(array $data):void
+    /**
+     * Armazena as informações do contato
+     */
+    public static function save(array $data): void
     {
         Contact::updateOrCreate(
             [

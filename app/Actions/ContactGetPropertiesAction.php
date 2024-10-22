@@ -8,6 +8,9 @@ use App\Models\Contact;
 
 class ContactGetPropertiesAction
 {
+    /**
+     * Busca as informações do contato
+     */
     public static function handle(string|int $id): array
     {
         $contact = Contact::find($id)->toArray();
@@ -24,6 +27,9 @@ class ContactGetPropertiesAction
         ];
     }
 
+    /**
+     * Inicializa as propriedades
+     */
     public static function getEmptyProperties(): array
     {
         return [
