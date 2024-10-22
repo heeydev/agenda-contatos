@@ -117,7 +117,7 @@ class SearchContact extends Component
     /**
      * Método construtor do componente
     */
-    public function mount():void
+    public function mount(): void
     {
         $this->data = ContactGetPropertiesAction::getEmptyProperties();
     }

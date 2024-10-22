@@ -1,6 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# Projeto Prático de Laravel + Livewire + Tailwind
+# Projeto Prático de Laravel + Livewire
 
 <p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image.png" width="400" alt="Cadastrar contatos"></a></p>
 <p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-3.png" width="800" alt="Cadastrar contatos"></a></p>
