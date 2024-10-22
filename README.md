@@ -2,9 +2,9 @@
 
 # Projeto Prático de Laravel + Livewire + Tailwind
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image.png" width="400" alt="Cadastrar contatos"></a></p>
+<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-2.png" width="400" alt="Cadastrar contatos"></a></p>
+<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-3.png" width="400" alt="Cadastrar contatos"></a></p>
 
 > Exemplo básico do Framework Laravel com Livewire
 
