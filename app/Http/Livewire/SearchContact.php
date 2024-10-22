@@ -34,6 +34,9 @@ class SearchContact extends Component
 
     protected $queryString = ['search'];
 
+    /**
+     * Realiza a validação e busca do CEP via API
+    */
     public function updated(string $key, string $value): void
     {
         $name = $this->data['name'];
@@ -60,34 +63,41 @@ class SearchContact extends Component
         $this->data['email'] = $email;
     }
 
+    /**
+     * Cadastra um novo contato
+    */
     public function save(): void
     {
         $this->validate();
 
         ContactStoreAction::save($this->data);
 
-        $this->showNotification('Criação/Atualização', 'O contato foi criado/atualizado com sucesso.');
+        $this->notification()->success('Criação/Atualização', 'O contato foi criado/atualizado com sucesso.');
 
         $this->resetExcept('contacts');
     }
 
+    /**
+     * Realiza a edição do contato
+    */
     public function edit(string $id): void
     {
         $this->data = ContactGetPropertiesAction::handle($id);
     }
 
+    /**
+     * Realiza a remoção do contato
+    */
     public function remove(string $id): void
     {
         Contact::find($id)?->delete();
 
-        $this->showNotification('Exclusão de Contato', 'Contato excluído com sucesso.');
+        $this->notification()->success('Exclusão de Contato', 'Contato excluído com sucesso.');
     }
 
-    private function showNotification(string $title, string $message):void
-    {
-        $this->notification()->success($title, $message);
-    }
-
+    /**
+     * Busca as propriedades do contato
+    */
     public function getContactProperty()
     {
         if ($this->search) {
@@ -104,11 +114,17 @@ class SearchContact extends Component
         return Contact::paginate(3);
     }
 
+    /**
+     * Método construtor do componente
+    */
     public function mount():void
     {
         $this->data = ContactGetPropertiesAction::getEmptyProperties();
     }
 
+    /**
+     * Renderiza a view do componente
+    */
     public function render(): Factory|View|Application
     {
         return view('livewire.search-contact');

@@ -6,6 +6,9 @@ namespace App\Http\Livewire\Traits;
 
 trait ContactPropertiesMessagesValidationTrait
 {
+    /**
+     * Mensagens das propriedades dos contatos e endereços
+    */
     protected array $messages = [
         'data.name.required' => 'O campo NOME é obrigatório.',
         'data.name.max' => 'O campo NOME não pode ultrapassar 255 caracteres.',
