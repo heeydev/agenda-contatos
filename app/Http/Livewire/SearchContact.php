@@ -101,7 +101,7 @@ class SearchContact extends Component
                 ->paginate(5);
         }
 
-        return Contact::paginate(5);
+        return Contact::paginate(3);
     }
 
     public function mount():void

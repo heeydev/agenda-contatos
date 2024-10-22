@@ -4,9 +4,9 @@ import laravel, { refreshPaths } from "laravel-vite-plugin";
 export default defineConfig({
     server: {
         hmr: {
-            host: 'agenda.contatos'
+            host: 'localhost'
         },
-        host: 'agenda.contatos'
+        host: 'localhost'
     },
     plugins: [
         laravel({

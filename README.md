@@ -21,9 +21,6 @@ cd agenda-contatos
 ## Configuração - Backend
 Segundo passo, instalar as dependências e subir o servidor:
 ``` bash
-# Instalar dependências do projeto
-composer install
-
 # Subir o servidor
 php artisan serve
 ```
