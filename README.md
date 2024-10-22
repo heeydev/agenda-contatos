@@ -2,11 +2,14 @@
 
 # Projeto Prático de Laravel + Livewire
 
+> Formulário com a funcionalidade de adição para novos contatos realizando validação, busca de CEP via API, além de persistência de dados.
 <p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image.png" width="400" alt="Cadastrar contatos"></a></p>
-<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-3.png" width="800" alt="Cadastrar contatos"></a></p>
-<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-2.png" width="200" alt="Cadastrar contatos"></a></p>
 
-> Exemplo básico do Framework Laravel com Livewire
+> Possibilidade de busca, edição e exclusão de contatos previamente cadastrados realizando paginação.
+<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-3.png" width="800" alt="Cadastrar contatos"></a></p>
+
+> Criação de endpoint retornando todos os contratos cadastrados em formato JSON.
+<p align="left"><img src="https://raw.githubusercontent.com/heeydev/agenda-contatos/master/image-2.png" width="200" alt="Cadastrar contatos"></a></p>
 
 ## Baixar o projeto
 Primeiro passo, clonar o projeto:
