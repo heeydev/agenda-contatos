@@ -62,7 +62,7 @@ cd agenda-contatos
 ### Configuração - Backend
 Segundo passo, instalar as dependências e subir o servidor:
 
-Caso n�o possua o sqlite instalado:
+Caso não possua o sqlite instalado:
 ``` bash
 sudo apt-get install php-sqlite3
 ```
