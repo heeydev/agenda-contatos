@@ -62,6 +62,11 @@ cd agenda-contatos
 ### Configuração - Backend
 Segundo passo, instalar as dependências e subir o servidor:
 
+> Configurar a conexão da base de dados no arquivo .env
+``` bash
+php artisan key:generate
+```
+
 > Subir o servidor
 ``` bash
 php artisan serve
