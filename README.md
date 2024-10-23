@@ -62,6 +62,11 @@ cd agenda-contatos
 ### Configuração - Backend
 Segundo passo, instalar as dependências e subir o servidor:
 
+Caso n�o possua o sqlite instalado:
+``` bash
+sudo apt-get install php-sqlite3
+```
+
 > Configurar a conexão da base de dados no arquivo .env
 ``` bash
 php artisan key:generate
@@ -95,7 +100,7 @@ npm run dev
 |URL|Descrição|
 |---|---|
 |http://127.0.0.1:8000/cadastro | Tela de cadastro dos contatos |
-|http://127.0.0.1:8000/api/contatos | Todos os contratos cadastrados no formato JSON  |
+|http://127.0.0.1:8000/api/contatos | Todos os contatos cadastrados no formato JSON  |
 
 <br />
 
