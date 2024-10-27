@@ -36,6 +36,9 @@ class SearchContact extends Component
 
     /**
      * Atualiza as informações do formulário
+     *
+     * @param string $key   Índice das informações
+     * @param string $value Valor do CEP
     */
     public function updated(string $key, string $value): void
     {
@@ -79,6 +82,8 @@ class SearchContact extends Component
 
     /**
      * Realiza a edição do contato
+     *
+     * @param string $id Id do contato
     */
     public function edit(string $id): void
     {
@@ -87,6 +92,8 @@ class SearchContact extends Component
 
     /**
      * Realiza a remoção do contato
+     *
+     * @param string $id Id do contato
     */
     public function remove(string $id): void
     {

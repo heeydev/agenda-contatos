@@ -10,6 +10,8 @@ class ViaCepService
 {
     /**
      * Realiza validação e retorna os dados do CEP via API, caso seja válido
+     *
+     * @param string $zipcode Valor do CEP a ser buscado via API
      */
     public static function handle(string $zipcode = ''): array
     {

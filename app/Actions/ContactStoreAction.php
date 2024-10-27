@@ -10,6 +10,8 @@ class ContactStoreAction
 {
     /**
      * Armazena as informações do contato
+     *
+     * @param array $data Array com as nformações do contato a serem armazenadas
      */
     public static function save(array $data): void
     {

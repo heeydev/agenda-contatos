@@ -10,6 +10,8 @@ class ContactGetPropertiesAction
 {
     /**
      * Busca as informações do contato
+     *
+     * @param string $id Id do contato
      */
     public static function handle(string|int $id): array
     {
